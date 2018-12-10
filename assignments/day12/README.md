@@ -106,7 +106,7 @@ exports.up = function(db) {
 };
 
 exports.down = function(db) {
-  return db.dropDatabase('GameResult');
+  return db.dropTable('GameResult');
 };
 
 exports._meta = {
