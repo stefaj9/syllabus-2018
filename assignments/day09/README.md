@@ -458,7 +458,7 @@ module.exports = function(context) {
                     }
                     client.query(query, (err) => {
                         if (err) {
-                            onError();
+                            onError(err);
                         } else {
                             onSuccess();
                         }
