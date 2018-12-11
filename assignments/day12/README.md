@@ -12,7 +12,7 @@ the database from a lower => higher version and back from a higher => lower vers
 
 We will be using the `db-migrate` npm package to create and run our migration scripts.
 The package should normally be installed as a dev dependency but because of how we are
-recreating the database using docker-compose, we will install it ad a production
+recreating the database using docker-compose, we will install it as a production
 dependency for simplicity.
 
 Create file `database.json`:
