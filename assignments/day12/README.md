@@ -181,6 +181,9 @@ mkdir game-client
 cd game-client
 git init
 git pull git@github.com:hgop/lucky-21-frontend.git
+rm -rf .git
+cd ..
+git rm --cached game-client
 ```
 
 Install project dependencies
