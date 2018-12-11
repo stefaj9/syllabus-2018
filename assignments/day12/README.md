@@ -381,3 +381,7 @@ Add the container to you `docker-compose.yml` file at the root of the project.
 The Client code is missing connection to game-api.
 
 Note, the Client might need a refresh after pressing New Game.
+
+In game-api, `server.js` needs to be modified to allow cross origin resource sharing.
+
+It is done be adding a header Access-Control-Allow-Origin in the express app.
