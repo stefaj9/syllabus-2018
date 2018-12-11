@@ -179,6 +179,7 @@ Go to the root of the project and create a new git repository and pull the clien
 ```bash
 mkdir game-client
 cd game-client
+git init
 git pull git@github.com:hgop/lucky-21-frontend.git
 ```
 
